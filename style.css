@@ -1,0 +1,28 @@
+canvas{
+    border-width: 5px;
+    animation-name:color2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes color2{
+    0%{
+        border-color: #A267AC(328, 75%, 69%);
+        transform: scale(1);
+        box-shadow: -1px -1px 38px #CE7BB0;
+        border-style: solid;
+    
+    }
+    50%{
+       
+        border-color:#CE7BB0;
+        transform: scale(1.5);
+        box-shadow: 1px 1px 38px #FFBCD1;
+         border-style: groove;
+    }
+    100%{
+        border-color: #FFBCD1;
+        transform: scale(1);
+        box-shadow: -1px -1px 38px #A267AC;
+        border-style: solid;
+    }
+    }
